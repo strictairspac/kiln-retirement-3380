@@ -1,4 +1,12 @@
-from src.models import audit, cases, reviews, runs, users  # Register the tables.
+from src.models import (  # noqa: F401
+    audit,
+    cases,
+    certificate_issues,
+    certificates,
+    reviews,
+    runs,
+    users,
+)
 from src.models.base import metadata
 
 
